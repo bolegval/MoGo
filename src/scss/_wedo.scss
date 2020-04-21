@@ -1,0 +1,65 @@
+.wedo {
+  padding-top: 112px;
+
+  &__info {
+    display: flex;
+    margin-bottom: 120px;
+  }
+
+  &__img {
+    margin-right: 30px;
+  }
+
+  &__desc {
+    text-align: left;
+    width: 100%;
+  }
+
+  &__title {
+    width: 100%;
+    color: #333333;
+    font-family: $montserat;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+    padding: 25px 0 25px 61px;
+    display: flex;
+    justify-content: space-between;
+
+    &--photography {
+      background: url("/icons/PICTURE.svg") 16px center no-repeat;
+    }
+
+    &--creativity {
+      background: url("/icons/EQUALIZER.svg") 16px center no-repeat;
+    }
+
+    &--web {
+      background: url("/icons/BULLSEYE.svg") 16px center no-repeat;
+    }
+  }
+
+  &__button {
+    width: 22px;
+    height: 12px;
+    background: url("/icons/ARROW.svg") transparent center no-repeat;
+    border: none;
+    margin-right: 20px;
+  }
+
+  &__text {
+    color: #999999;
+    font-family: $roboto-italic;
+    font-size: 15px;
+    line-height: 24px;
+    border: 1px solid #e5e5e5;
+    padding: 21px 55px 28px 20px;
+    margin-bottom: 10px;
+  }
+
+  &__slider {
+    background-color: #f8f8f8;
+    font-size: 150px;
+  }
+}

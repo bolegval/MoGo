@@ -1,0 +1,62 @@
+.services {
+  padding-top: 109px;
+  padding-bottom: 122px;
+
+  &__break {
+    margin-bottom: 66px;
+  }
+
+  &__info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__title {
+    color: #333333;
+    font-family: $montserat;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: calc(100% / 3);
+    text-align: left;
+    padding-left: 60px;
+
+    &:nth-of-type(-n + 3) {
+      border-bottom: 1px solid #e5e5e5;
+      padding-bottom: 51px;
+      margin-bottom: 49px;
+    }
+
+    &--photography {
+      background: url("/icons/photography.svg") top left no-repeat;
+    }
+
+    &--webdesign {
+      background: url("/icons/web_design.svg") top left no-repeat;
+    }
+
+    &--creativity {
+      background: url("/icons/creativity.svg") top left no-repeat;
+    }
+
+    &--seo {
+      background: url("/icons/seo.svg") top left no-repeat;
+    }
+
+    &--css {
+      background: url("/icons/css.svg") top left no-repeat;
+    }
+
+    &--digital {
+      background: url("/icons/digital.svg") top left no-repeat;
+    }
+  }
+
+  &__desc {
+    display: inline-block;
+    margin-top: 20px;
+    color: #999999;
+    font-family: $roboto;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}

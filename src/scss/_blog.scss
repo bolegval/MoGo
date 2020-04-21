@@ -1,0 +1,51 @@
+.blog {
+  padding: 113px 0 117px;
+
+  &__list {
+    display: flex;
+    text-align: left;
+  }
+
+  &__item {
+    font-size: 15px;
+
+    &:not(:last-of-type) {
+      margin-right: 32px;
+    }
+  }
+
+  &__img {
+    margin-bottom: 20px;
+  }
+
+  &__tittle {
+    font-family: $montserat;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+  }
+
+  &__desc {
+    display: inline-block;
+    font-family: $roboto;
+    color: #999999;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+    margin-bottom: 21px;
+  }
+
+  &__props {
+    font-family: $roboto-italic;
+    color: #999999;
+  }
+
+  &__views {
+    padding-left: 25px;
+    margin-right: 20px;
+    background: url("/icons/VIEW.svg") center left no-repeat;
+  }
+
+  &__comments {
+    padding-left: 20px;
+    background: url("/icons/comments.svg") center left no-repeat;
+  }
+}

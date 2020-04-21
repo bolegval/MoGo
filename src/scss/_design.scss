@@ -1,0 +1,16 @@
+.design {
+  padding-top: 109px;
+  position: relative;
+  background: url("/img/design_bg.jpg") center, rgba(255, 255, 255, 0.85);
+  background-blend-mode: lighten;
+
+  &__img {
+    display: inline-block;
+
+    &--small {
+      position: absolute;
+      right: 22%;
+      bottom: -10%;
+    }
+  }
+}

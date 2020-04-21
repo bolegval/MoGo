@@ -1,0 +1,50 @@
+.comments {
+  padding: 110px 0 126px;
+  background: url("/img/mountain.png") center no-repeat;
+  background-size: cover;
+
+  &__list {
+    column-count: 2;
+    padding: 0 40px;
+    margin-top: 88px;
+
+    & li {
+      margin-bottom: 68px;
+      display: flex;
+      text-align: left;
+      font-size: 15px;
+      color: #333333;
+
+      &:nth-of-type(1) {
+        margin-right: 88px;
+      }
+
+      &:nth-of-type(2) {
+        margin-right: 88px;
+      }
+
+      & img {
+        display: inline-block;
+        align-self: start;
+        margin-right: 30px;
+      }
+    }
+  }
+
+  &__name {
+    font-family: $montserat;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+  }
+
+  &__prof {
+    margin-bottom: 21px;
+    font-family: $roboto-italic;
+  }
+
+  &__text {
+    margin-top: 27px;
+    font-family: $roboto;
+    color: #999999;
+  }
+}

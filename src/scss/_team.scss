@@ -1,0 +1,39 @@
+.team {
+  padding-top: 99px;
+
+  &__desc {
+    margin-bottom: 92px;
+  }
+
+  &__member {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 118px;
+  }
+
+  &__image {
+    margin-bottom: 31px;
+  }
+
+  &__tittle {
+    display: inline-block;
+    color: #333333;
+    font-family: $montserat;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+    & span {
+      display: block;
+      color: #999999;
+      font-family: $roboto-italic;
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+
+  &__work {
+    background-color: #f8f8f8;
+    padding: 50px 0 51px;
+  }
+}

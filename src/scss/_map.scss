@@ -1,0 +1,20 @@
+.map {
+  padding: 60px 0;
+  background: url("/img/map-bg.png") center no-repeat;
+  background-size: cover;
+
+  & img {
+    margin-bottom: 20px;
+  }
+
+  & h3 {
+    font-family: $montserat-bold;
+    font-size: 24px;
+    color: #f38181;
+    margin-bottom: 22px;
+  }
+
+  & div {
+    margin-bottom: 0;
+  }
+}
